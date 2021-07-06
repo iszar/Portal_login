@@ -1,0 +1,22 @@
+{
+  "name": "codeceptjsdemo",
+  "version": "1.0.0",
+  "description": "Login test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps --verbose --features --grep @test"
+  },
+  "keywords": [],
+  "author": "Isam Z <zarismono@gmail.com> ",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.0.7",
+    "playwright": "^0.11.1"
+  },
+  "dependencies": {
+    "@codeceptjs/ui": "^0.4.6",
+    "cucumber": "^7.0.0-rc.0",
+    "load-helpers": "^1.0.1",
+    "mochawesome": "^4.1.0"
+  }
+}
