@@ -46,5 +46,3 @@ Feature: Login
     Given I navigate to Scheduling page
       And I see three employees in the schedule list
       And I wait 5
-
-    Testetstest
