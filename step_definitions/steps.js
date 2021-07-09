@@ -41,17 +41,18 @@ Then('I load page', () => {
 });
 
 Then(/^I see text "([^"]*)"$/, async function () {
+    await
     I.waitForText('The username or password is incorrect.', 5, '.validation-message');
 });
 
-//Given(/^three employees$/, async function () {
-//    await
-//    I.grabNumberOfVisibleElements('(//span[@title=\'0h 0m,0 Shifts\'][contains(.,\'0h 0m / 0 Shifts\')])');
-//});
 Given(/^I see "([^"]*)" in the schedule list$/, async function () {
     await
     I.grabNumberOfVisibleElements('(//span[@title=\'0h 0m,0 Shifts\'][contains(.,\'0h 0m / 0 Shifts\')])');
 });
-Given(/^I navigate to "([^"]*)"$/, function () {
-             I.amOnPage ('/schedule_url');
+Given(/^I navigate to "([^"]*)"$/, async function () {
+    await
+    I.amOnPage ('/schedule_url');
+});
+Given(/^I see "([^"]*)"$/, function () {
+    I.waitForElement('.login-form__button', 3); // Verify button
 });

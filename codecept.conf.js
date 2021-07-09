@@ -1,4 +1,5 @@
-const { devices } = require('playwright');
+const { chromium } = require('playwright');
+
 exports.config = {
   output: './output',
   helpers: {
@@ -8,7 +9,8 @@ exports.config = {
       schedule_url: 'https://test1234.planday.com/page/schedule-1',
       show: true,
       keepCookies: true,
-      captcha: true
+      captcha: false,
+      headless: false,
     }
   },
   include: {
