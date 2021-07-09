@@ -43,6 +43,6 @@ Feature: Login
 #       Count and assert that the number of displayed employees is 3.
 
   Scenario: Count and display the number of employees in the schedule list
-    Given I navigate to Scheduling page
-      And I see three employees in the schedule list
+    Given I navigate to "Scheduling page"
+      And I see "three employees" in the schedule list
       And I wait 5
