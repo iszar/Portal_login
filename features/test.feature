@@ -9,8 +9,8 @@ Feature: Login
     Scenario: Navigate to the base URL and validate the main login fields and button are displayed
     Given I navigate to the site
       And I consent to cookies
-      And I see "Input fields"
-      And I see "Login button"
+      And I see "Input_fields"
+      And I see "Login Button"
 
 #   2. Fill in the Username & Password fields with invalid data.
 #      Verify if the proper error messages are shown.

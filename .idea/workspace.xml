@@ -7,10 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8a99060c-01a3-4d44-98ea-81f4cb1c0c43" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codecept.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/codecept.conf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Fill_in_the_Username_&amp;_Password_with_invalid_data_and_verify_the_error_messages_are_shown.failed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Fill_in_the_Username_&amp;_Password_with_invalid_data_and_verify_the_error_messages_are_shown.failed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/Login_into_the_portal_using_valid_credentials.failed.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/Login_into_the_portal_using_valid_credentials.failed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Fill_in_the_Username_&amp;_Password_with_invalid_data_and_verify_the_error_messages_are_shown.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/Login_into_the_portal_using_valid_credentials.failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/step_definitions/steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/step_definitions/steps.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +115,9 @@
       <workItem from="1625529007499" duration="2648000" />
       <workItem from="1625562011102" duration="3064000" />
       <workItem from="1625812268361" duration="2571000" />
-      <workItem from="1625855974517" duration="4953000" />
+      <workItem from="1625855974517" duration="4975000" />
+      <workItem from="1626113891807" duration="4215000" />
+      <workItem from="1626247056913" duration="2928000" />
     </task>
     <task id="LOCAL-00001" summary="Added text in test feature file.">
       <created>1625595236456</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625856718939</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated steps file">
+      <created>1625867437029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625867437030</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@codeceptjs/ui": "^0.4.6",
+    "cli-progress": "^3.9.0",
     "cucumber": "^7.0.0-rc.0",
     "load-helpers": "^1.0.1",
     "mochawesome": "^4.1.0"
